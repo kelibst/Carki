@@ -1,0 +1,295 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="nav-container">
+    <nav class="navbar navbar-expand-lg  container navbar-primary">
+      <a class="navbar-brand" href="#"><img src="assets/img/cakilogo.png" alt="navbar brand"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav carki-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Auction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Financing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Workshops</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav carki-nav">
+          <li class="nav-item nav-signin"><a href="#" class="nav-link">Sign In</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="hero-container">
+    <div class="hero-clipath">
+      <div class="hero-content">
+        <p class="hero-text">COE prices surge ahead of another supplu cut spile is biggest in over 10 years - The
+          Straits Times</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content mx-auto">
+    <div class="table-conntent">
+
+    </div>
+    <section class="body-hero">
+      <h1 class="body-hero-header text-center h1 font-weight-bolder">Carki: Making Vehicle Ownership <br> Accessible For
+        Everyone</h1>
+      <div class="body-hero-icons">
+        <div class="hero-icon-container">
+          <div class="body-hero-icon"><img class="sell-icon" src="/assets/svg-icons/sell.svg" alt=""></div>
+          <h6>Sell</h6>
+        </div>
+        <div class="hero-icon-container">
+          <div class="body-hero-icon"><img class="scrap-icon" src="/assets/svg-icons/scrap_car.svg" alt=""></div>
+          <h6>Scrap/Export</h6>
+        </div>
+        <div class="hero-icon-container">
+          <div class="body-hero-icon"><img class="coe-icon" src="/assets/svg-icons/renewal.svg" alt=""></div>
+          <h6>COE Renewal</h6>
+        </div>
+        <div class="hero-icon-container">
+          <div class="body-hero-icon"><img class="rental-icon" src="/assets/svg-icons/rental.svg" alt=""></div>
+          <h6>Rental</h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="value-container container-lg">
+
+      <div class="value-calculator shadow-lg value-rounded rounded py-4">
+        <h5 class="value-header text-center h2 font-weight-bolder mb-2">Calculate Your Road Tax For Free Here:</h5>
+        <h6 class="value-subheader font-weight-bolder mb-3 text-center">Input your vehicle details below to know how
+          much you have to pay in road tax!</h6>
+        <div class="d-flex value-cal justify-content-center my-4">
+          <div class="col-6 value-handle mr-2">
+            <form>
+              <div class="input-group mb-3">
+                <label class="font-weight-bolder" for="vehi-eng">Vehicle Engine Capacity</label>
+                <input type="range" class="custom-range" id="vehi-eng">
+              </div>
+              <div class="input-group mb-3">
+                <label class="font-weight-bolder" for="vehi-age">Vehicle Age</label>
+                <input type="range" class="custom-range" id="vehi-age">
+              </div>
+              <div class="pil-schme">
+                <h6 class="font-weight-bolder">Vehicle's Scheme</h6>
+                <ul class="nav nav-pills border pil-container my-4 nav-fill">
+
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Normal Car (non-OPC)</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#much">Old OPC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Revised OPC</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="pil-schme">
+                <h6 class="font-weight-bolder">Fuel Scheme</h6>
+                <ul class="nav nav-pills border pil-container my-4 nav-fill">
+
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Petrol</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active br-round" href="#much">Diesel</a>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+          <div class="value-taxpayable col-5">
+            <div class="tax-card shadow-sm py-4 bg-light rounded">
+              <h4 class="value-hero-header font-weight-bolder text-center pb-2 h4">Your Total Road Tax payable is:</h4>
+              <div class="tax-price-container d-flex justify-content-between pt-0 px-4">
+                <div class="tax-price flex-column d-flex">
+                  <div class="d-flex">
+                    <span class="tax-icon font-sm">$</span>
+                    <p class="tax-amount font-weight-bolder">320</p>
+                  </div>
+                  <p class="text-primary text-center">per 6 months</p>
+                </div>
+                <div class="tax-price flex-column d-flex">
+                  <div class="d-flex">
+                    <span class="tax-icon font-sm">$</span>
+                    <p class="tax-amount font-weight-bolder">640</p>
+                  </div>
+                  <p class="text-primary text-center">per year</p>
+                </div>
+
+
+              </div>
+              <div class="d-flex px-4 py-3 justify-content-between">
+                <div><span class="text-primary">$</span> <span
+                    class="font-weight-bolder font-sm text-primary">240</span></div>
+                <div><span class="text-primary">$</span> <span class="font-sm text-primary">Road Tax</span></div>
+                <div><span class="text-primary">$</span> <span
+                    class="font-weight-bolder font-sm text-primary">240</span></div>
+              </div>
+              <div class="d-flex px-4 py-3 justify-content-between">
+                <div><span class="text-primary">$</span> <span
+                    class="font-weight-bolder font-sm text-primary">240</span></div>
+                <div><span class="text-primary">$</span> <span class="font-sm text-primary">Road Tax</span></div>
+                <div><span class="text-primary">$</span> <span
+                    class="font-weight-bolder font-sm text-primary">240</span></div>
+              </div>
+            </div>
+            <p class="font-weight-bolder font-sm py-3">Let Carki do a free tax review for you to  save costs on your vehicle and raod tax today</p>
+            <a href="/getstarted" class="btn my-2 font-sm py-2 font-weight-bolder text-center w-100 btn-orange">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="value-hero border-bottom-cus container-lg my-5 py-3">
+        <h4 class="value-hero-header font-weight-bolder text-center pb-2 h">See Why It's Much Cheaper To Work With Us
+        </h4>
+        <h6 class="value-hero-subheader text-center font-weight-bolder">It -ll only take you a minute to change your
+          life...</h6>
+        <div class="value-hero-img"></div>
+      </div>
+
+      <div class="value-iconized d-flex">
+        <div class="col-sm-4">
+          <header class="iconized text-center font-weight-bolder mb-3">No Admin Fees. No Processing Fees.</header>
+          <div class="iconized-icon"><img class="iconized-icona" src="/assets/svg-icons/money-box.svg" alt=""></div>
+          <div class="iconized-footer">
+            We offer transparency to both end users and partners!
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <header class="iconized mb-3 text-center font-weight-bolder">Lowest Interst Rates In The Market</header>
+          <div class="iconized-icon"><img class="iconized-icona" src="/assets/svg-icons/load-a.svg" alt=""></div>
+          <div class="iconized-footer">
+            Our finance interst is from 1.68%!
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <header class="iconized mb-3 text-center font-weight-bolder">Buy With Assurance And Confidence</header>
+          <div class="iconized-icon"><img class="iconized-icona" src="/assets/svg-icons/Insurance.svg" alt=""></div>
+          <div class="iconized-footer">
+            Our in-house workshop provides free evaluation and repair quotations!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products my-5 container">
+      <h2 class="products-header">Latest Used Cars</h2>
+      <div class="products-cards d-flex mb-3">
+        <div class="card col-4 mr-2 border-0"">
+          <img class=" card-img-top" src="/assets/svg-icons/scrap_car.svg" alt="Cars image">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-4 mr-2 border-0"">
+          <img class=" card-img-top" src="/assets/svg-icons/scrap_car.svg" alt="Cars image">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-4 border-0"">
+          <img class=" card-img-top" src="/assets/svg-icons/scrap_car.svg" alt="Cars image">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="view-more d-flex justify-content-center">
+        <a href="#" class="btn btn-more font-weight-bolder">View More </a>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-nav">
+        <nav class="navbar navbar-expand-lg  container navbar-primary">
+          <a class="navbar-brand" href="#"><img src="assets/img/cakilogo.png" alt="navbar brand"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Marketplace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Auction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Financing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Workshops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Workshops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Workshops</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item nav-signin"><a href="#" class="nav-link">Sign In</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-copy">Copyright &copy; 2021 InterX Labs</div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

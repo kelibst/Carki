@@ -1,0 +1,178 @@
+:root {
+  --yelow: #fffa32;
+  --dand: #ff6833;
+  --carkipink: #f3617b;
+}
+
+a.navbar-brand > img {
+  width: 75px;
+  margin-right: 100px;
+}
+.nav-container {
+  background: #404244;
+}
+.nav-container {
+  background: #404244;
+}
+
+.carki-nav li a.nav-link {
+  color: #ff6833;
+}
+.carki-nav li a.nav-link:hover {
+  color: #cf582d;
+}
+.carki-nav li a.nav-link:focus {
+  color: #b64f2a;
+}
+.carki-nav li a.nav-link.active {
+  color: #db5322;
+}
+
+li.nav-item.nav-signin {
+  border-right: 1px solid #ff6833;
+}
+
+.hero-container {
+  padding: 30px;
+  /* background: #404244; */
+}
+.hero-icon-container {
+  margin: 2rem;
+}
+
+.hero-content {
+  -webkit-box-shadow: 9px 8px 15px -3px var(--yelow);
+  box-shadow: 9px 8px 15px -3px var(--yelow);
+  padding: 0 2rem;
+  background: white;
+  font-weight: bolder;
+  border-radius: 1rem;
+}
+
+.btn-orange {
+  background-color: orange;
+  color: white;
+  border-radius: 1rem;
+}
+.body-hero {
+  min-height: 80vh;
+  max-height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin: 2rem auto;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      180deg,
+      rgb(50 50 85 / 79%) 35%,
+      rgb(244 232 0 / 26%) 100%
+    ),
+    url(/assets/v2_36.png);
+  /* background-image:  linear-gradient(180deg,  rgba(23,23,198,1) 35%, rgba(255,243,0,1) 100%), url(/assets/v2_36.png); */
+}
+.pil-container {
+  border-radius: 1rem;
+  background-color: lightblue;
+}
+.font-sm {
+  font-size: 1.6rem;
+}
+
+.br-round {
+  border-radius: 0 1rem 1rem 0 !important;
+}
+.tax-amount {
+  font-size: 5rem;
+  color: var(--carkipink);
+}
+
+.body-hero-icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+}
+.tax-icon {
+  padding-right: 10px;
+  margin-top: 15px;
+  color: var(--carkipink);
+}
+.carki-nav li a {
+  color: var(--dand);
+}
+.body-hero-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.hero-container {
+  background-image: url(./assets/img/cakilogo-hero.svg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -50px;
+  z-index: -100;
+}
+.hero-clipath {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+p.hero-text {
+  margin-bottom: 0px;
+}
+
+.hero-icon-container > h6 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.sell-icon {
+  width: 50px;
+  height: 50px;
+}
+.sell-icon,
+.scrap-icon,
+.coe-icon,
+.rental-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.border-bottom-cus {
+  border-bottom: 1px solid #fffa32;
+}
+
+.iconized-icon {
+  display: flex;
+  justify-content: center;
+}
+
+img.iconized-icona {
+  width: 10rem;
+  margin: 1rem;
+}
+.value-subheader {
+  font-size: 12px;
+}
+.iconized-footer {
+  text-align: center;
+  margin: 2rem;
+}
+h2.products-header {
+  font-weight: bolder;
+  text-align: center;
+  margin: 2rem;
+}
+.btn-more {
+  color: --dand;
+}
