@@ -14,6 +14,13 @@ a.navbar-brand > img {
 .nav-container {
   background: #404244;
 }
+.text-carki-dand {
+  color: var(--dand) !important;
+}
+.card-deep-round {
+  font-size: 10px;
+  border-radius: 1rem;
+}
 
 .carki-nav li a.nav-link {
   color: #ff6833;
@@ -25,11 +32,13 @@ a.navbar-brand > img {
   color: #b64f2a;
 }
 .carki-nav li a.nav-link.active {
-  color: #db5322;
+  color: white;
+  text-decoration: underline;
 }
-
-li.nav-item.nav-signin {
+.nav-signin {
   border-right: 1px solid #ff6833;
+  padding: 0 1rem !important;
+  margin: .5rem;
 }
 
 .hero-container {
@@ -62,7 +71,7 @@ li.nav-item.nav-signin {
   align-items: center;
   flex-direction: column;
   color: white;
-  margin: 2rem auto;
+  margin: 0 auto 0 auto;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(
@@ -78,21 +87,29 @@ li.nav-item.nav-signin {
   background-color: lightblue;
 }
 .font-sm {
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 .br-round {
   border-radius: 0 1rem 1rem 0 !important;
 }
 .tax-amount {
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--carkipink);
 }
-
+.social-icons {
+  font-size: 20px;
+}
 .body-hero-icons {
   display: flex;
   justify-content: space-between;
   max-width: 90%;
+}
+.footer-brand-img {
+  width: 30px;
+}
+.footer-brand {
+  margin-right: 100px;
 }
 .tax-icon {
   padding-right: 10px;
@@ -113,7 +130,7 @@ li.nav-item.nav-signin {
 }
 
 .hero-container {
-  background-image: url(./assets/img/cakilogo-hero.svg);
+  /* background-image: url(./assets/img/cakilogo-hero.svg); */
   background-size: cover;
   background-position: center;
   margin-top: -50px;
@@ -164,6 +181,24 @@ img.iconized-icona {
 .value-subheader {
   font-size: 12px;
 }
+.value-calculator {
+  background: white;
+  position: relative;
+  top: -50px;
+}
+.whatsapp-container {
+  background: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -40px;
+}
 .iconized-footer {
   text-align: center;
   margin: 2rem;
@@ -175,4 +210,63 @@ h2.products-header {
 }
 .btn-more {
   color: --dand;
+}
+.value-hero-img {
+  height: 200px;
+  width: 60%;
+  background: pink;
+  margin: 1rem auto;
+  border-radius: 1rem;
+}
+.value-hero-bg {
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(255,145,0,0.28925073447347693) 100%);
+}
+.left-slider-bar {
+  position: relative;
+  left: -90px;
+}
+.right-slider-bar {
+  position: relative;
+  right: -90px;
+}
+.sell-menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 1rem 1rem 3rem 1rem;
+
+}
+.sell-li:not(:last-child)::after {
+  content: ">";
+  margin-right: 1rem;
+}
+.sell-link {
+  color: black;
+}
+.sell-link.active {
+  font-weight: bolder;
+}
+.sell-img-cont {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+
+.bg-carki-orange {
+  background-color: #f8bd52;
+}
+.bg-carki-dand {
+  background-color: var(--dand);
+}
+.sell-pil-cont {
+  border: 2px solid var(--dand);
+  border-radius: 5px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: var(--dand);
 }
