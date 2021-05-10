@@ -38,7 +38,37 @@ a.navbar-brand > img {
 .nav-signin {
   border-right: 1px solid #ff6833;
   padding: 0 1rem !important;
-  margin: .5rem;
+  margin: 0.5rem;
+}
+.bg-light-blue {
+  background-color: lightblue;
+}
+.paper-desc {
+  margin: 3rem 1rem;
+}
+.paper-input {
+  border: 1px solid var(--dand);
+}
+.paper-card-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: .5rem;
+}
+.paper-slider-right {
+  right: -150px;
+}
+.paper-slider-left {
+  left: -150px;
+}
+
+.fin-hero {
+  background-image: linear-gradient(
+    180deg,
+    #adb5bd 35%,
+    rgb(244 232 0 / 68%) 100%
+  );
+  padding: 5rem 0;
 }
 
 .hero-container {
@@ -219,8 +249,12 @@ h2.products-header {
   border-radius: 1rem;
 }
 .value-hero-bg {
-  background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(255,145,0,0.28925073447347693) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(255, 145, 0, 0.28925073447347693) 100%
+  );
 }
 .left-slider-bar {
   position: relative;
@@ -235,7 +269,6 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(255,145,0,0.28
   list-style: none;
   justify-content: center;
   margin: 1rem 1rem 3rem 1rem;
-
 }
 .sell-li:not(:last-child)::after {
   content: ">";
@@ -267,6 +300,7 @@ img {
   border: 2px solid var(--dand);
   border-radius: 5px;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: var(--dand);
 }
